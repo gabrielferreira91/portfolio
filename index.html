@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Gabriel Ferreira | DEV</title>
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </div>
+
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo"><a href="#"><img src="/assets/image/Gf.png" alt="logo GF"></a></div>
+        <ul class="menu">
+          <li><a href="#home" onclick="closeMenu()">Início</a></li>
+          <li><a href="#about" onclick="closeMenu()">Sobre</a></li>
+          <li><a href="#projects" onclick="closeMenu()">Projetos</a></li>
+          <li><a href="#skills" onclick="closeMenu()">Habilidades</a></li>
+          <li><a href="#contact" onclick="closeMenu()">Contato</a></li>
+        </ul>
+        <div class="menu-btn open-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+          <div class="menu-btn close-menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+        </div>
+       
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Oi, meu nome é</div>
+          <div class="text-2">Gabriel Ferreira</div>
+          <div class="text-3">eu sou <span class="typing"></span></div>
+          <a href="#contact">Meus Contatos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Sobre</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="assets/image/photo01.png" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              Sou Gabriel Ferreira <span class="typing-2"></span>
+            </div>
+            <p>
+              Formado em Engenharia Civil, trabalhei por 2 anos na área
+              gerenciando obras de infraestrutura de algumas construtoras por
+              meio da empreiteira
+              <a href="http://www.pavit.com.br" target="_blank">Pavit</a>.
+              Sempre tive afinidade por tecnologia, aprendi a utilizar vários
+              softwares diferentes como Revit, SketchUp, AutoCAD, MS Project e
+              alguns outros relacionados à área de Construção Civil.
+              <br />
+              Com o tempo fui estudando cada vez mais programas e tecnologias
+              que são utilizadas no setor e adentrei na programação para
+              otimizar alguns afazeres, onde encontrei uma paixão.
+              <br />
+              <br />
+              Nesse meio tempo trabalhei como arte finalista na empresa de
+              embalagens de papelão ondulado
+              <a href="http://www.cacocitoembalagens.com.br" target="_blank"
+                >C A Cocito Embalagens </a
+              >, onde aprimorei algumas habilidades de arte digital utilizando
+              CorelDraw, Illustrator e Photoshop. Nesse trabalho fiz dois sites
+              utilizando HTML5, CSS3 e JavaScript que otimizaram muito o
+              processo interno da empresa e me ajudaram a treinar os
+              conhecimentos adquiridos.
+
+              <br />
+              O
+              <a href="#" class="text-site" target="_blank">primeiro site</a>
+              resolveu um problema interno que tínhamos para realização de
+              orçamento de caixas, onde toda cotação era feita por Excel e
+              alguns vendedores encontravam dificuldade para realizar de maneira
+              rápida quando estavam visitando clientes.
+              <br />
+              O
+              <a href="#" class="text-site" target="_blank">segundo site</a> foi
+              feito para auxiliar os cálculos de horas trabalhadas e valores
+              pagos a funcionários temporários com contrato por hora.
+              <br />
+              <br />
+              Hoje estou em transição de carreira para me tornar um
+              Desenvolvedor.
+            </p>
+            <a class="download" href="/assets/Currículo Gabriel Ferreira.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="title">Projetos</h2>
+        <div class="proj-content">
+          <div class="card">
+            <div class="box">
+              <a href="https://gabrielferreira91.github.io/medindocaixas/" target="_blank">
+              <img src="assets/image/projeto01-medindocaixa.png" alt="Projeto um" /></a>
+              <div class="text">Projeto 01 - Medindo Caixas</div>
+              <p>
+                Projeto realizado para otimizar o processo de orçamento de
+                caixas de papelão. Nele você escolhe o tipo de embalagem, coloca
+                as medidas internas e terá as medidas da chapa de papelão que
+                será necessário para produção. Depois escolhendo a gramatura do
+                papelão e valor do quilo você terá o valor da caixa.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <a href="https://gabrielferreira91.github.io/cont-hours/" target="_blank">
+              <img src="assets/image/projeto02-contador.png" alt="Projeto dois" />
+              </a>
+              <div class="text">Projeto 02 - Contador de Tempo</div>
+              <p>
+                Projeto realizado para facilitar os cálculos diários de horas
+                trabalhadas.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <a href="https://gabrielferreira91.github.io/prof.lari/" target="_blank">
+                <img src="assets/image/projeto03-profalari.png" alt="Projeto três" />
+              </a>
+              <div class="text">Projeto 03 - Professora Larissa</div>
+              <p>
+                Site profissional da Professora Larissa Ramalho. Projeto foi
+                realizado na Next Level Week da RocketSeat onde desenvolvi esse
+                site com as modificações e personalização que a cliente
+                solicitou.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Habilidades</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Minhas Habilidades</div>
+            <p>
+              Estou estudando desenvolvimento web desde 2021 e tenho alguns projetos pessoais já postos em prática.<br>
+              Ainda tenho muito o que aprender, mas sigo com minha rotina de estudos para aprimorar os conhecimentos adquiridos e estudando para me tornar um DEV profissional.
+            </p>
+            <a href="#about">Mais informações</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+
+              <div class="info">
+                <span>CSS</span>
+                <span>70%</span>
+              </div>
+              <div class="line css"></div>
+
+              <div class="info">
+                <span>JavaScript</span>
+                <span>80%</span>
+              </div>
+              <div class="line js"></div>
+
+              <div class="info">
+                <span>NodeJS</span>
+                <span>40%</span>
+              </div>
+              <div class="line nodejs"></div>
+
+              <div class="info">
+                <span>MySQL</span>
+                <span>40%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contato</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Entre em contato</div>
+            <p>
+              Para entrar em contato você pode ir em alguma das redes sociais, enviar um e-mail ou até mesmo uma mensagem no WhatsApp. Sinta-se a vontade para escolher.
+            </p>
+
+            <div class="icons">
+              <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Nome</div>
+                  <div class="sub-title">Gabriel Ferreira</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <ion-icon name="earth-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">Mirassol - SP</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <ion-icon name="mail-outline"></ion-icon>
+                <div class="info">
+                  <div class="head">E-mail</div>
+                  <div class="sub-title">ferreira.gabriel@live.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Redes Sociais</div>
+            <div class="icons">
+              
+              <div class="row">
+                <a href="https://github.com/gabrielferreira91" target="_blank">
+                  <ion-icon name="logo-github"></ion-icon>
+                
+                <div class="info">
+                  <div class="head">GitHub</div>
+                </a>
+                  <div class="sub-title">/gabrielferreira91</div>
+                </div>
+              </div>  
+                        
+              
+              <div class="row">
+                <a href="https://instagram.com/ferreirah.gabriel" target="_blank">
+                  <ion-icon name="logo-instagram"></ion-icon>                
+                <div class="info">
+                  <div class="head">Instagram</div>
+                </a>
+                  <div class="sub-title">/ferreirah.gabriel</div>
+                </div>
+              </div>  
+
+              <div class="row">
+                <a href="https://www.linkedin.com/in/gabriel-henrique-ferreira" target="_blank">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                
+                <div class="info">
+                  <div class="head">LinkedIn</div>
+                </a>
+                  <div class="sub-title">/gabriel-henrique-ferreira</div>
+                </div>
+              </div>  
+
+              <div class="row">
+                <a href="https://wa.me/5517991456458" target="_blank">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                
+                <div class="info">
+                  <div class="head">WhatsApp</div>
+                </a>
+                  <div class="sub-title">(17) 991456458</div>
+                </div>
+              </div>  
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Criado por <strong>Gabriel Ferreira</strong> | Todos os direitos reservados 2023.</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
