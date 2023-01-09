@@ -18,13 +18,13 @@ $('.scroll-up-btn').click(function () {
 })
 
 var typed = new Typed('.typing', {
-  strings: ['Desenvolvedor', 'Designer', 'Freelancer', 'Arte Finalista'],
+  strings: ['Desenvolvedor', 'Engenheiro', 'Freelancer', 'Arte Finalista'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
 })
 var typed = new Typed('.typing-2', {
-  strings: ['Desenvolvedor', 'Designer', 'Freelancer', 'Arte Finalista'],
+  strings: ['Desenvolvedor', 'Engenheiro', 'Freelancer', 'Arte Finalista'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
