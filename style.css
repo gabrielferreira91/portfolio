@@ -98,7 +98,8 @@ html {
 .home .home-content .text-3 {
   color: #fff;
   font-size: 40px;
-  margin: 5px 0;
+  margin: 5px 0;  
+  margin-left: -15px;
 }
 
 .home .home-content .text-3 span {
