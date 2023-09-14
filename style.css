@@ -98,7 +98,7 @@ html {
 .home .home-content .text-3 {
   color: #fff;
   font-size: 40px;
-  margin: 5px 0;  
+  margin: 5px 0;
   margin-left: -15px;
 }
 
@@ -132,7 +132,7 @@ html {
   display: none;
 }
 
-.menu-btn.close-menu{
+.menu-btn.close-menu {
   display: none;
 }
 
@@ -165,7 +165,6 @@ html {
 .scroll-up-btn.show:hover {
   background-color: var(--second-color);
 }
-
 
 /* SECTIONS */
 section {
@@ -249,7 +248,7 @@ footer {
 }
 .about .about-content .right p a {
   color: #000;
-  font-weight: 600 ;
+  font-weight: 600;
 }
 
 .about .about-content .right .download {
@@ -392,7 +391,7 @@ footer {
   width: 40%;
 }
 .skills .skills-content .right .mysql::before {
-  width: 40%;
+  width: 70%;
 }
 
 /* CONTATO */
@@ -507,7 +506,6 @@ footer span strong {
     padding-top: 80px;
     text-align: center;
     transition: all 0.3s ease;
-
   }
 
   .navbar .menu.active {
@@ -515,7 +513,7 @@ footer span strong {
     overflow: hidden;
   }
 
-  .navbar .menu.active .open-menu{
+  .navbar .menu.active .open-menu {
     display: none;
   }
 
@@ -529,7 +527,7 @@ footer span strong {
     font-size: 25px;
   }
 
-  .scroll-up-btn.show{
+  .scroll-up-btn.show {
     bottom: 30px;
     right: 30px;
   }
@@ -562,7 +560,7 @@ footer span strong {
     padding-left: 0px;
   }
 
-  footer{
+  footer {
     padding-top: 32px;
   }
 }
