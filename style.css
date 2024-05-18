@@ -224,6 +224,7 @@ footer {
   justify-content: space-between;
   line-height: 24px;
 }
+
 /* About */
 .about .title::after {
   content: 'Quem sou eu';
